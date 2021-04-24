@@ -5,7 +5,7 @@ package ch.abbts.nds.swe.swdt.starter1;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-//In der @RestController Annotation werden die zu verwendung stehenden WEB-Abfragen Hinterlegt
+//In der @RestController Annotation werden die zu Verwendung stehenden WEB-Abfragen hinterlegt
 @RestController
 public class HelloController {
 

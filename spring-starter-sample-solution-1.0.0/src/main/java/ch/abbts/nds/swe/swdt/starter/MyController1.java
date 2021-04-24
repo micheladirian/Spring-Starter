@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Arrays;
 import java.util.List;
 
+//In der @RestController Annotation werden die zu Verwendung stehenden WEB-Abfragen hinterlegt
 @RestController
 @RequestMapping(path = "/employees")
-public class EmployeesController {
+public class MyController1 {
     @GetMapping(path = "/", produces = "application/json")
     public List<String> employees() {
         return Arrays.asList(new String[]{
@@ -20,4 +21,5 @@ public class EmployeesController {
                 "to anonymous users!"
         });
     }
+
 }
