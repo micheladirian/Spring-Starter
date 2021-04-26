@@ -13,8 +13,8 @@ public class SecureEmployeesController {
   @GetMapping(path = "/", produces = "application/json")
   public List<String> employees() {
     return Arrays.asList(new String[]{
-        "Tenzing Norgay",
-        "Edmund Hillary"
+            "Tenzing Norgay",
+            "Edmund Hillary"
     });
   }
 }

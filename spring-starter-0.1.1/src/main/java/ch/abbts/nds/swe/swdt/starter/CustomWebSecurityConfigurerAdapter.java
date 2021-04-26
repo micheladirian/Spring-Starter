@@ -16,23 +16,23 @@ public class CustomWebSecurityConfigurerAdapter extends WebSecurityConfigurerAda
   @Override
   protected void configure(HttpSecurity http) throws Exception {
     http
-        .csrf().disable()
-        .authorizeRequests()
-        .antMatchers("/employees/**").permitAll()
-        .anyRequest().authenticated()
-        .and()
-        .httpBasic();
+            .csrf().disable()
+            .authorizeRequests()
+            .antMatchers("/employees/**").permitAll()
+            .anyRequest().authenticated()
+            .and()
+            .httpBasic();
   }
 
   @Bean
   @Override
   public UserDetailsService userDetailsService() {
     UserDetails user =
-        User.withDefaultPasswordEncoder()
-            .username("user")
-            .password("password")
-            .roles("USER")
-            .build();
+            User.withDefaultPasswordEncoder()
+                    .username("user")
+                    .password("password")
+                    .roles("USER")
+                    .build();
 
     return new InMemoryUserDetailsManager(user);
   }

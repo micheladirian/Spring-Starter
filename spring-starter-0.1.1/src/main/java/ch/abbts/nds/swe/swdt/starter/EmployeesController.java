@@ -13,11 +13,10 @@ public class EmployeesController {
   @GetMapping(path = "/", produces = "application/json")
   public List<String> employees() {
     return Arrays.asList(new String[]{
-        "Tenzing Norgay",
-        "Edmund Hillary",
-        "These names",
-        "should never be available",
-        "to anonymous users!"
+            "Peter Halter",
+            "Adrian Michel",
+            "Dominic Gwerder",
+            "sollte niemals für Anonyme Benutzer verfügbar sein!"
     });
   }
 }
