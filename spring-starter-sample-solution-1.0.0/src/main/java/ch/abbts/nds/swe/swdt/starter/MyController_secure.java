@@ -15,11 +15,9 @@ public class MyController_secure {
     @GetMapping(path = "/", produces = "application/json")
     public List<String> employees() {
         return Arrays.asList(new String[]{
-                "Tenzing Norgay",
-                "Edmund Hillary",
-                "These names",
-                "should never be available",
-                "to anonymous users!"
+                "Herr Michel",
+                "Herr Halter",
+                "Frau Durrer"
         });
     }
 

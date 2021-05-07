@@ -15,11 +15,10 @@ public class MyController_open {
     @GetMapping(path = "/", produces = "application/json")
     public List<String> employees() {
         return Arrays.asList(new String[]{
-                "Tenzing Norgay",
-                "Edmund Hillary",
-                "These names",
-                "should never be available",
-                "to anonymous users!"
+                "Adrian Michel",
+                "Peter Halter",
+                "Fredy Durrer",
+                "Ueli von Ah"
         });
     }
 
