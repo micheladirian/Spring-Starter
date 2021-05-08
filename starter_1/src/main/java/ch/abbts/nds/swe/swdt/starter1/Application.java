@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-//Die Spring Boot-Annotation wird verwendet, um eine Konfigurationsklasse zu markieren,
+// Die Spring Boot-Annotation wird verwendet, um eine Konfigurationsklasse zu markieren,
 // die eine oder mehrere @Bean-Methoden deklariert und außerdem die Autokonfiguration und das Scannen von Komponenten auslöst.
 // Es ist dasselbe wie das Deklarieren einer Klasse mit den Annotationen
 // @Configuration, @EnableAutoConfiguration und @ComponentScan.
