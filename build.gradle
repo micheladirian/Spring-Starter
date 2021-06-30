@@ -17,8 +17,30 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.security:spring-security-test'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.rest-assured:rest-assured:4.4.0'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
 
 test {
-	useJUnitPlatform()
+	useJUnitPlatform{
+		includeTags 'unit'
+		excludeTags 'IT'
+	}
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
+
+task integrationTest(type: Test) {
+	dependsOn assemble
+	description = 'Runs integration tests.'
+	group = 'verification'
+	useJUnitPlatform{
+		includeTags 'IT'
+		excludeTags 'unit'
+	}
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
 }
