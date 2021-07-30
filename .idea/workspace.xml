@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="900c9707-ab0b-4e12-8292-4bbf1f49cd4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/AscendingStringOrderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/AscendingStringOrderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/SkillsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/SkillsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/SkillsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/SkillsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/SortingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/skill/SortingFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/abbts/nds/swe/swdt/starter/skill/SkillControllerTestIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/abbts/nds/swe/swdt/starter/skill/SkillControllerTestIT.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="starter" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="starter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="starter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rHfMzoNIxrRUWb7ubDtRA5BnOx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.EmployeeTest.exactAge">
+    <configuration name="EmployeeTest.exactAge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ch.abbts.nds.swe.swdt.starter.logic.EmployeeTest.exactAge&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeTest.tooYoung" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ch.abbts.nds.swe.swdt.starter.logic.EmployeeTest.tooYoung&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-starter [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EmployeeTest.exactAge" />
+        <item itemvalue="Gradle.EmployeeTest.tooYoung" />
+        <item itemvalue="Gradle.spring-starter [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="900c9707-ab0b-4e12-8292-4bbf1f49cd4b" name="Default Changelist" comment="" />
+      <created>1618637894989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618637894989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1622720289414">
+      <screen x="3840" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="483" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@0.0.1920.1040" timestamp="1619453956744" />
+    <state width="1877" height="483" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1619453407048" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@3840.-116.1920.1160" timestamp="1622720289414" />
+    <state width="1877" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619112469973" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1622720289414">
+      <screen x="3840" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="483" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@0.0.1920.1040" timestamp="1619453956744" />
+    <state width="1877" height="483" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1619453407047" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@3840.-116.1920.1160" timestamp="1622720289414" />
+    <state width="1877" height="424" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619112469973" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1622720289414">
+      <screen x="3840" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="483" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@0.0.1920.1040" timestamp="1619453956744" />
+    <state width="1877" height="483" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1619453407047" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@3840.-116.1920.1160" timestamp="1622720289414" />
+    <state width="1877" height="424" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619112469972" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1622720289414">
+      <screen x="3840" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="483" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@0.0.1920.1040" timestamp="1619453956744" />
+    <state width="1877" height="483" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1619453407047" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@3840.-116.1920.1160" timestamp="1622720289414" />
+    <state width="1877" height="424" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619112469973" />
+  </component>
+</project>
