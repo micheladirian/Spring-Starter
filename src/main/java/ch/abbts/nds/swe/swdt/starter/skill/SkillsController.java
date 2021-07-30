@@ -19,6 +19,7 @@ public class SkillsController {
   @Autowired
   private SkillsService skillsService;
 
+  // ...
   @GetMapping(produces = "application/json")
   public List<String> skills(@RequestParam(name = "order", required = false, defaultValue = "ASC") String order) {
     return skillsService.sort(order);

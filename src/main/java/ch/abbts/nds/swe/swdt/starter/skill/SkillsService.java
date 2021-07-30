@@ -14,9 +14,13 @@ public class SkillsService {
   @Autowired
   private SortingFactory sortingFactory;
 
+  // ...
   public List<String> sort(String order) {
+    // Speichert die Abgelegten "Skills" in eine Liste
     List<String> skills = skillsRepository.skills();
+    // Liest die Sortiermethode ein
     Sortable sortStrategy = sortingFactory.getSortOrder(order);
+    // Gibt die "Skills" nach der angewählten sort Metode zurück
     return sortStrategy.sort(skills);
   }
 }

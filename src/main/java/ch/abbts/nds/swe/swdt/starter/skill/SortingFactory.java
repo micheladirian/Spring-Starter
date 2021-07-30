@@ -28,6 +28,7 @@ public class SortingFactory {
     this.sortables = sortables;
   }
 
+  // Es wird geschaut ob eine Sortierstrategie gewählt wurde, wenn nicht wird defalt "ASC" weitergegeben
   public Sortable getSortOrder(String order) {
     Optional<Sortable> strategy = this.sortables.stream().filter(sortable -> sortable.supports(order)).findFirst();
     if (strategy.isPresent()){

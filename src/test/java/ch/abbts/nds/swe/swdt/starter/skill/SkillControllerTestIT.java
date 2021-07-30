@@ -23,6 +23,7 @@ public class SkillControllerTestIT {
       "special-drillhead-rtx3300",
   };
 
+  // ...
   @Test
   @DisplayName("/skills returns 200 and random elements")
   public void
@@ -38,6 +39,7 @@ public class SkillControllerTestIT {
         body("$", hasItem("heavy-machinery"));
   }
 
+  // ...
   @Test
   @DisplayName("/skills returns 200 and ascending elements")
   public void
