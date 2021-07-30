@@ -1,16 +1,14 @@
-ch/abbts/nds/swe/swdt/starter/employee/EmployeeService.java
- ch.abbts.nds.swe.swdt.starter.employee.EmployeeService
-ch/abbts/nds/swe/swdt/starter/employee/EmployeesController.java
- ch.abbts.nds.swe.swdt.starter.employee.EmployeesController
+ch/abbts/nds/swe/swdt/starter/EmployeesController.java
+ ch.abbts.nds.swe.swdt.starter.EmployeesController
 ch/abbts/nds/swe/swdt/starter/CustomWebSecurityConfigurerAdapter.java
  ch.abbts.nds.swe.swdt.starter.CustomWebSecurityConfigurerAdapter
 ch/abbts/nds/swe/swdt/starter/solder/controller/EmptyController.java
  ch.abbts.nds.swe.swdt.starter.solder.controller.EmptyController
 ch/abbts/nds/swe/swdt/starter/StarterApplication.java
  ch.abbts.nds.swe.swdt.starter.StarterApplication
+ch/abbts/nds/swe/swdt/starter/SecureEmployeesController.java
+ ch.abbts.nds.swe.swdt.starter.SecureEmployeesController
 ch/abbts/nds/swe/swdt/starter/solder/service/EmptyService.java
  ch.abbts.nds.swe.swdt.starter.solder.service.EmptyService
-ch/abbts/nds/swe/swdt/starter/logic/Employee.java
- ch.abbts.nds.swe.swdt.starter.logic.Employee
 ch/abbts/nds/swe/swdt/starter/solder/persistence/EmptyDb.java
  ch.abbts.nds.swe.swdt.starter.solder.persistence.EmptyDb

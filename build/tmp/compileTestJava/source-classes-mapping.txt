@@ -1,6 +1,2 @@
 ch/abbts/nds/swe/swdt/starter/StarterApplicationTests.java
  ch.abbts.nds.swe.swdt.starter.StarterApplicationTests
-ch/abbts/nds/swe/swdt/starter/employee/EmployeeControllerTestIT.java
- ch.abbts.nds.swe.swdt.starter.employee.EmployeeControllerTestIT
-ch/abbts/nds/swe/swdt/starter/logic/EmployeeTest.java
- ch.abbts.nds.swe.swdt.starter.logic.EmployeeTest
